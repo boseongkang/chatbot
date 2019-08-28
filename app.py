@@ -36,7 +36,7 @@ def telegram():
 
             url = 'https://openapi.naver.com/v1/papago/n2mt'
             headers = {
-                'X-Naver-Client-Id': naver_client_id,
+                'X-Naver-Client-Id': naver_client_id, 
                 'X-Naver-Client-Secret': naver_client_secret
             }
             data = {
